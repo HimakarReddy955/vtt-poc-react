@@ -13,6 +13,8 @@ function App() {
       tracks[i].mode = tracks[i].language === selectedLang ? "showing" : "disabled";
     }
 
+
+    
     const activeTrack = Array.from(tracks).find(
       (t) => t.language === selectedLang
     );
